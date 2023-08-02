@@ -1,0 +1,67 @@
+##### some steps ####
+--Git clone    >>to the directory
+--cd          >>  go into the directory file
+--git pull    >> to make sure the downloaded version
+--conda create --name=your_env python=3.10  >> to create env to manage download packages
+--conda activate your_env
+--pip install -r requirements.txt 
+--vim requirments.txt >> to look in this requirements
+
+--nvidia -smi  >> to vertify your cuda
+--python code.py
+
+
+
+######### notebook tips ##########
+
+[local machines:]
+
+python and ipyhthon >> to in
+
+exit()   or ctrl C>>  to out
+
+vim test_script.py  == python test_script.py  >> script ( a file you would run python on)
+
+pip install jupyterlab >> install to your local machine
+jupyter notebook >> click lind to in (localhosr:8888)
+
+jupyter lab >> link to local host:8888
+
+
+[cloud:]
+
+Goole Colab
+creat a new note book and go~
+
+kaggle notebook
+similar to Colab, but have wasy access to public data
+click "add data" then:
+-- import pandas as pd 
+--df = pd.read.csv("path")
+--df.plot(x=,y-,kind=,)
+
+
+[key shortcuts]:
+
+shift enter
+ctrl enter
+esc j k >> mover to other cells
+a b (add above and bellow) >>  add cell
+dd to delete   >>  add cell 
+esc m >> markdown
+esc y >> code
+
+
+######## git and github
+
+directory == folder
+terminal or command line or CLI
+cd
+code editor
+repostitory  (save project)
+github : a website to host your project
+
+git commands:
+clone, add, commit,push,pull
+
+
